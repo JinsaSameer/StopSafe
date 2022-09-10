@@ -1,0 +1,10 @@
+[
+  { 
+    "fullname":"John Philip",
+    "email": "john@gnail.com",
+    "password": "password01",
+    "badgeNumber":"4415",
+    "isPolice": true
+  }
+  
+]
