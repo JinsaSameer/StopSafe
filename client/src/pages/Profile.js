@@ -3,14 +3,16 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { Link } from 'react-router-dom';
+import {QRCodeCanvas} from 'qrcode.react';
 
 
 
 import { QUERY_SINGLE_PROFILE } from '../utils/queries';
 
+
 const Profile = () => {
   const { profileId } = useParams();
-
+  let baseUrl = window.location.origin;
   const { loading, data } = useQuery(QUERY_SINGLE_PROFILE, {
     variables: { profileId: profileId },
   });
@@ -25,7 +27,10 @@ const Profile = () => {
       <div className="flex-row justify-space-between my-4"></div>
       <h2 className="card-header">
         {profile.fullname}'s Details...
+        
         </h2>
+        <QRCodeCanvas value={`${baseUrl}`}></QRCodeCanvas>
+
         <div className="card mb-9">
                 <h4 className="card-header bg-dark text-light p-7 m-0 ">
                  Name: {profile.fullname} <br />
