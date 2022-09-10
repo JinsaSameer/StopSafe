@@ -9,9 +9,10 @@ import {QRCodeCanvas} from 'qrcode.react';
 
 import { QUERY_SINGLE_PROFILE } from '../utils/queries';
 
+
 const Profile = () => {
   const { profileId } = useParams();
-
+  let baseUrl = window.location.origin;
   const { loading, data } = useQuery(QUERY_SINGLE_PROFILE, {
     variables: { profileId: profileId },
   });
@@ -28,7 +29,7 @@ const Profile = () => {
         {profile.fullname}'s Details...
         
         </h2>
-        <QRCodeCanvas value={`https://google.com`}></QRCodeCanvas>
+        <QRCodeCanvas value={`${baseUrl}`}></QRCodeCanvas>
 
         <div className="card mb-9">
                 <h4 className="card-header bg-dark text-light p-7 m-0 ">
