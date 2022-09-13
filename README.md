@@ -47,9 +47,9 @@ and when they choose to file a complaint or contest a citation.
 
 
 ## Technologies Used
-JavaScript
-HTML/CSS
-MERN Stack
+JavaScript,
+HTML/CSS,
+MERN Stack,
 
 Deployment link:  https://vast-island-48698.herokuapp.com/
 
