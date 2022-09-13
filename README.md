@@ -47,8 +47,11 @@ and when they choose to file a complaint or contest a citation.
 
 
 ## Technologies Used
+
 JavaScript,
+
 HTML/CSS,
+
 MERN Stack,
 
 Deployment link:  https://vast-island-48698.herokuapp.com/
@@ -60,7 +63,8 @@ Deployment link:  https://vast-island-48698.herokuapp.com/
 
 ![Screenshot (181)](https://user-images.githubusercontent.com/101385521/189800895-d22be190-e6ff-41ab-8b3b-9e93e0a10923.png)
 
-#Questions
+##Questions
+
 jerrytrueba10@gmail.com,
 
 shogoofa.musket@gmail.com,
