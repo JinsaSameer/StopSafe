@@ -61,11 +61,16 @@ Deployment link:  https://vast-island-48698.herokuapp.com/
 ![Screenshot (181)](https://user-images.githubusercontent.com/101385521/189800895-d22be190-e6ff-41ab-8b3b-9e93e0a10923.png)
 
 #Questions
-jerrytrueba10@gmail.com
-shogoofa.musket@gmail.com
-ecert31@gmail.com
-jinsajaleel@gmail.com
-anlubelni@gmail.com
+jerrytrueba10@gmail.com,
+
+shogoofa.musket@gmail.com,
+
+ecert31@gmail.com,
+
+jinsajaleel@gmail.com,
+
+anlubelni@gmail.com,
+
 theodore.ayoub@gmail.com
 
 
