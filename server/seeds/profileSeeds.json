@@ -3,7 +3,10 @@
     "fullname":"John Philip",
     "email": "john@gnail.com",
     "password": "password01",
+    "agencyAffiliation":"SDP",
+    "supervisor":"Ronald",
     "badgeNumber":"4415",
+    "phoneNumber":"8584566789",
     "isPolice": true
   }
   
